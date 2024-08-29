@@ -1,0 +1,80 @@
+body {
+	background: black;
+	font-family: "Playwrite NL", system-ui;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	padding: 10px;
+}
+
+.postcard-header h1 {
+	width: 90%;
+	margin: 0px;
+	font-size: large;
+	padding-top: 20px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	width: 150px;
+	font-size: xx-small;
+	font-family: "Playwrite NL", system-ui;
+}
+
+.postcard-body p {
+	font-size: xx-small;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	font-size: xx-small;
+	font-weight: bold;
+	font-family: "Playwrite NL", system-ui;
+	border-bottom: 1px solid black;
+}
+
+button:hover {
+	background-color: lightgrey;
+}
